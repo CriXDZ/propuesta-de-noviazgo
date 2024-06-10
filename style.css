@@ -131,11 +131,11 @@ button:hover {
 .photos img {
   width: 30%;
   border-radius: 10px;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease-in-out;
 }
 
 .photos img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /* Estilos para el botón de mute */
@@ -189,10 +189,6 @@ button:hover {
   }
   .photos img {
     width: 100%;
-  }
-  #muteButton {
-    font-size: 20px;
-    top: 10px;
-    right: 5px;
+    transition: transform 0.3s ease-in-out;
   }
 }
