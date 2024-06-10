@@ -123,19 +123,20 @@ button:hover {
 
 .photos {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .photos img {
-  width: 30%;
+  width: 100%;
+  max-width: 300px;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
 }
 
 .photos img:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 /* Estilos para el botón de mute */

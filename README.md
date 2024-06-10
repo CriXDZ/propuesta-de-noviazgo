@@ -4,20 +4,19 @@ Esta es una página web especial diseñada para hacer una propuesta de noviazgo.
 
 ## Descripción
 
-La página presenta un diseño atractivo con un fondo animado, botones interactivos y una galería de fotos que se pueden ampliar para ver en detalle. Al hacer clic en los botones, se muestran mensajes personalizados. Además, cuenta con música de fondo para ambientar el momento.
+La página presenta un diseño atractivo con un fondo animado, botones interactivos y una galería de fotos dispuesta en cascada que se adapta a diferentes tamaños de pantalla. Al hacer clic en los botones, se muestran mensajes personalizados. Además, cuenta con música de fondo para ambientar el momento.
 
 ## Tecnologías Utilizadas :hammer:
 
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) **HTML**: Estructura básica de la página.
 - ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) **CSS**: Estilos y animaciones para hacer la página visualmente atractiva.
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) **JavaScript**: Lógica para manejar la interacción del usuario y los efectos visuales.
-- ![Lightbox2](https://img.shields.io/badge/-Lightbox2-333?style=flat-square&logo=javascript&logoColor=white) **Lightbox2**: Biblioteca utilizada para la galería de fotos.
 
 ## Funcionalidades
 
 - **Animaciones de fondo**: Fondos que cambian de color de forma suave.
 - **Interactividad**: Botones que muestran mensajes personalizados al hacer clic en ellos.
-- **Galería de Fotos**: Galería interactiva donde se pueden ampliar las imágenes con Lightbox.
+- **Galería de Fotos**: Galería interactiva donde las fotos se disponen en cascada y se ajustan al tamaño de la pantalla.
 - **Música de Fondo**: Reproducción automática de música de fondo con control de sonido (mute/unmute).
 - **Responsividad**: Diseño adaptativo para una visualización óptima en dispositivos móviles y de escritorio.
 
