@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Una propuesta romántica en formato de página web.">
+    <meta name="keywords" content="amor, propuesta, romántico, novia">
+    <title>¿Quieres ser mi novia?</title>
+    <!-- Enlace al archivo CSS principal -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Enlace al CSS de Lightbox -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <!-- Favicon e iconos para dispositivos -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+    <!-- Música de fondo -->
+    <audio id="backgroundMusic" loop>
+        <source src="audio/musica-de-fondo.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <!-- Botón para mutear/desmutear la música -->
+    <button id="muteButton">🔊</button>
+    <div class="container">
+        <h1>¿Quieres ser mi novia?</h1>
+        <img src="img/amor-mobile.webp" alt="Imagen romántica" class="rounded-image">
+        <p>Desde que te conocí, he sentido algo muy especial por ti. Eres una persona increíble que ilumina mis días y
+            llena mi vida de alegría. Me encantaría compartir muchos momentos más a tu lado y conocerte aún más.
+            ¿Quieres ser mi novia?</p>
+        <div class="buttons">
+            <!-- Botones de respuesta -->
+            <button id="yesButton">Sí</button>
+            <button id="noButton">No</button>
+        </div>
+        <div id="responseMessage" class="response-message"></div>
+        <!-- Galería de fotos -->
+        <div id="photoGallery" class="photo-gallery">
+            <h2>Nuestros Momentos</h2>
+            <div class="photos">
+                <!-- Enlaces a las fotos con Lightbox -->
+                <a href="img/minecraft.png" data-lightbox="gallery" data-title="Nuestro primer encuentro">
+                    <img src="img/minecraft.png" alt="Foto 1">
+                </a>
+                <a href="img/foto2.jpg" data-lightbox="gallery" data-title="Un día especial">
+                    <img src="img/foto2.jpg" alt="Foto 2">
+                </a>
+                <a href="img/foto3.jpg" data-lightbox="gallery" data-title="Momentos felices">
+                    <img src="img/foto3.jpg" alt="Foto 3">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Enlace al archivo JavaScript principal -->
+    <script src="script.js"></script>
+    <!-- Enlace al JavaScript de Lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+
+</html>
